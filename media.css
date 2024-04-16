@@ -1,0 +1,256 @@
+@media screen and (max-width: 700px) {
+
+    /* dropdown */
+    .dropdown {
+      width: 100%;
+    }
+
+    ul{
+      padding: 5px;
+    }
+  
+    li {
+      width: 100%;
+      float: none;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      border: 2px solid white;
+    }
+  
+    li a {
+      align-items: center;
+    }
+  
+    li:hover {
+      background-color: red;
+    }
+
+
+    /* home */
+
+    .web{
+      font-size: 50px;
+      margin-left: 70px;
+      margin-top: 40px;
+      width: 400px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      
+    }
+    
+    .web span{
+      color:orange;
+    }
+    
+    .web-width{
+      font-size: 20px;
+      margin-left: 30px;
+      margin-top: 50px;
+      width: 550px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+    }
+    
+    .web-width span{
+      font-size: 30px;
+      color: orange;
+    }
+
+
+    /* about */
+
+    .container {
+        display: grid;
+        background-color: red;
+        grid-template-columns: auto auto;
+        gap: 10px 10px;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      
+
+      .container > div {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+      }
+      
+      .container > div:hover {
+        transform: scale(1.1);
+        background-color: orange;
+      }
+      
+      .container div img {
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: 5px;
+      }
+      
+      .container div img:hover {
+        outline-color: green;
+      }
+      
+      .company {
+        width: 98%;
+        font-size: 25px;
+        font-style: italic;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: 100;
+        padding: 20px;
+        background: linear-gradient(to bottom right, red, green);
+        border-radius: 10px;
+        outline-style: solid;
+        outline-width: 10px;
+        outline-color: blue;
+        color: pink;
+      }
+
+      .company p:nth-child(2) {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .values-info {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: auto;
+        background-color: rgb(158, 15, 15);
+        outline-style: solid;
+        outline-width: 10px;
+        outline-color: blue;
+      }
+      
+      .values-1 {
+        color: white;
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      #img {
+        border-radius: 10px;
+        height: 600px;
+        width: 800px;
+        outline: none;
+      }
+
+
+      /* portfolio */
+
+      .boxing {
+        display: grid;
+      
+        grid-template-columns: auto auto auto;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      
+      .boxing > div {
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        border-radius: none;
+        font-size: 30px;
+      }
+
+      .item-1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+      
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 60px;
+
+      }
+
+      .item-2{
+        grid-row-start: 3;
+        grid-row-end: 4;
+      
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 50px;
+      }
+
+      .item-2 {
+        width: 600px;
+      }
+
+      
+      .item-3{
+        grid-row-start: 4;
+        grid-row-end: 5;
+      
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+
+
+      /* blogs */
+      .blogs{
+        display: grid;
+        grid-template-columns: auto;
+        padding : 10px;
+        gap: 10px 10px;
+      }
+
+      .share textarea {
+        box-shadow: 0px 0px 0px 0px white;
+        border-radius: 10px;
+        width: 500px;
+      }
+
+
+      /* contact */
+
+     #headimg {
+        margin-left: 10px;
+        margin-bottom: 2rem;
+        color: red;
+        text-transform: uppercase;
+        font-size: 3rem;
+        border: 2px solid red ;
+      }
+      
+
+      .company-address {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 10px;
+        padding: 10px;
+      
+      }
+      
+      .company-address > div {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        color: white;
+        background-color: white;
+        text-align: center;
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+      }
+      
+      .company-address > div:hover{
+        box-shadow: 0px 0px 10px 10px aqua;
+         transform: scale(1.1);
+      }
+  }

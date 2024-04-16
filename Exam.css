@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: red;
+  color: wheat;
+}
+
+/* Home */
+
+.dropdown {
+  margin: 10px;
+}
+
+ul {
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+li a:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+.web{
+  font-size: 50px;
+  margin-left: 450px;
+  margin-top: 200px;
+  width: 600px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.web span{
+  color:orange;
+}
+
+.web-width{
+  font-size: 20px;
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 900px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.web-width span{
+  font-size: 30px;
+  color: orange;
+}
+
+
+/* About */
+
+.container {
+  display: grid;
+  background-color: pink;
+  grid-template-columns: auto auto auto;
+  gap: 10px 10px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container > div {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.container > div:hover {
+  transform: scale(1.1);
+  background-color: orange;
+}
+
+.container div img {
+  height: 200px;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 5px;
+}
+
+.container div img:hover {
+  outline-color: green;
+}
+
+.names {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.title {
+  color: crimson;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.company {
+  width: 98%;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background: linear-gradient(to bottom right, red, green);
+  border-radius: 10px;
+  outline-style: solid;
+  outline-width: 10px;
+  outline-color: blue;
+  color: pink;
+}
+
+.company p {
+  text-align: center;
+}
+
+.values-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(158, 15, 15);
+  outline-style: solid;
+  outline-width: 10px;
+  outline-color: blue;
+  margin-top: 30px;
+}
+
+.values-1 {
+  color: white;
+  margin-left: 30px;
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.values-1 span {
+  margin-top: 10px;
+}
+
+#img {
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+  outline: none;
+}
+
+/* services */
+
+.courses {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 10px 10px;
+     justify-content: space-around;
+     margin-top: 20px;
+}
+
+.courses > div {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: none;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.courses > div:hover {
+  transform: scale(1.1);
+  background-color: aqua;
+}
+
+.courses > div img {
+  outline: none;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.inform {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.btn {
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 30px;
+  width: 200px;
+  margin-top: 40px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn a:link {
+  color: white;
+}
+
+.btn a:hover {
+  color: crimson;
+}
+
+.btn a:active {
+  color: blue;
+}
+
+/* portfolio */
+
+.boxing {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boxing > div {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: none;
+  font-size: 30px;
+}
+
+.item-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 500px;
+}
+
+.item-1 img {
+  border-radius: 10px;
+  outline: none;
+  height: 500px;
+  width: 500px;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+.item-1 img:hover {
+  transform: scale(1.1);
+}
+
+.item-2 {
+  width: 1000px;
+}
+
+.cases {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  gap: 10px 10px;
+}
+
+.cases > div {
+  background-color: green;
+  padding: 30px;
+  text-align: center;
+  border-radius: none;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 100px;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+.cases > div:hover {
+  height: 100%;
+  overflow: none;
+}
+
+.cs {
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 3px solid red;
+  border-width: 10px;
+  font-weight: bold;
+}
+
+.Desc {
+  float: left;
+  color: green;
+}
+
+.Desc h3 {
+  font-weight: normal;
+}
+
+.Desc p {
+  margin-top: 15px;
+}
+
+/* Contact */
+
+.contact form {
+  max-width: 1000px;
+  padding: 2rem;
+  margin: 0 auto;
+  border: var(--border);
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+}
+
+.contact form h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: red;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.contact form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact form .flex .inputBox {
+  flex: 1 1 40rem;
+}
+
+.contact form .flex label {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.contact form .flex select,
+.contact form .flex input,
+.contact form .flex textarea {
+  width: 80%;
+  border-radius: 0.5rem;
+  width: 90%;
+  background-color: var(--white);
+  padding: 1.2rem 1.4rem;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  color: purple;
+  font-size: 30px;
+}
+
+input,
+textarea {
+  color: red;
+  border: 2px solid black;
+}
+
+input:focus,
+textarea:focus {
+  border-color: aqua;
+  box-shadow: 0px 0px 10px 10px aqua;
+}
+
+.button {
+  background-color: aqua;
+  font-size: 40px;
+  width: 200px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+}
+
+.button:hover {
+color:midnightblue;
+background-color: springgreen;
+}
+
+.company-address {
+  display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 20px;
+  padding: 10px;
+}
+
+.company-address > div {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  background-color: white;
+  text-align: center;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  width: 400px;
+}
+
+.company-address > div:hover {
+  box-shadow: 0px 0px 10px 10px aqua;
+  transform: scale(1.1);
+}
+
+.map p {
+  color: black;
+  font-size: 30px;
+}
+
+.phone p {
+  color: black;
+  font-size: 30px;
+}
+
+.para-1 {
+  margin-top: 20px;
+}
+
+.email p,
+a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* blogs */
+
+.blogs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 10px 10px;
+}
+
+.blogs > div {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.blogs > div img {
+  border-radius: 10px;
+}
+
+.blogs > div h2 {
+  color: red;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.date {
+  color: green;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.content {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.share {
+  display: grid;
+  grid-template-columns: auto auto;
+  float: left;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.share > div {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.share textarea {
+  box-shadow: 0px 0px 0px 0px white;
+  border-radius: 10px;
+}
+
+.click{
+   width: 200px;
+   height: 50px;
+   margin-top: 10px;
+   background-color: chocolate;
+   border: none;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+.click:hover{
+   background-color: blue;
+   color: white;
+}
